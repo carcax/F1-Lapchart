@@ -54,23 +54,30 @@ F1-Telemetry/
 Make sure you have Python 3.8+ installed on your sistem.
 
 ### 1. Clone the repository
-
+```bash
 git clone https://github.com/carcax/F1-Lapchart
 cd F1-Telemetry
-
+```
 ### 2. Set up a Virtual Environment (Recommended)
-
+```bash
 python -m venv venv
+```
 #### On Windows:
+```bash
 venv\Scripts\activate
+```
 #### On macOS/Linux:
+```bash
 source venv/bin/activate
-
+```
 ### Install Dependecies
+```bash
 pip install -r requirements.txt
-
+```
 ### Run the Application
+```bash
 python frontend/app.py
+```
 
 Open your browser and navigate to http://127.0.0.1
 
