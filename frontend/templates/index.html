@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.plot.ly/plotly-3.1.0.min.js" charset="utf-8"></script>
+    <script type="module" src="{{ url_for('static', filename='js/index.js')}}"></script>
+    <title>F1 Telemetry APP </title>
+</head>
+<body>
+    <h1>Select an event</h1>
+    <select id="year-select"></select>
+    <select id="event-select"> </select>
+    <select id="session-select"></select>
+    <div id="driver-div"></div>
+    <table id="laps-table">
+        <tbody id="laps-tbody">
+        </tbody>
+    </table>
+    <div id="lap-graph"></div>
+</body>
+</html>
+<style>
+    table, td, th{
+        border: 1px solid black;
+    }
+</style>
