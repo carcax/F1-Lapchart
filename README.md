@@ -73,3 +73,6 @@ pip install -r requirements.txt
 python frontend/app.py
 
 Open your browser and navigate to http://127.0.0.1
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details. © Mattia Carcagnolo. All rights reserved.
